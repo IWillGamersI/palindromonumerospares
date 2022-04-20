@@ -41,6 +41,9 @@ botao.addEventListener('click',()=>{
     div.appendChild(resposta)
     palindromo.value = ""
 })
+
+/************Numeros Pares************/
+
 var array = []
 
 botaoNumero.addEventListener('click',()=>{
@@ -70,6 +73,7 @@ botaoTroca.addEventListener('click',()=>{
     botaoTroca.disabled = true
     botaoNumero.disabled = true
     numero.disabled = true
+    botaoLimpar.disabled = false
 })
 
 botaoLimpar.addEventListener('click', ()=>{

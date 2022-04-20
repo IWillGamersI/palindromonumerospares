@@ -40,6 +40,7 @@ body{
     width: 100px;
     height: 25px;
     color: rgb(8, 9, 100);
+    cursor: pointer;
 }
 
 .bloco1{
